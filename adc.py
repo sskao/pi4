@@ -54,7 +54,7 @@ try:
         time.sleep(0.5)
 except Exception as e:
      # creating/opening a file
-    f = open("/home/gbliao/log.txt", "a+") 
+    f = open("/home/pi/log.txt", "a+") 
     # writing in the file
     t=datetime.datetime.now().strftime("%Y/%m/%d %H:%M:%S ")
     
